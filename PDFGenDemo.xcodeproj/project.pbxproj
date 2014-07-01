@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDD6B43319625EE900C19697 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDD6B43219625EE900C19697 /* Foundation.framework */; };
+		FDD6B43519625EE900C19697 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDD6B43419625EE900C19697 /* CoreGraphics.framework */; };
+		FDD6B43719625EE900C19697 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDD6B43619625EE900C19697 /* UIKit.framework */; };
+		FDD6B43D19625EE900C19697 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FDD6B43B19625EE900C19697 /* InfoPlist.strings */; };
+		FDD6B43F19625EE900C19697 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD6B43E19625EE900C19697 /* main.m */; };
+		FDD6B44319625EE900C19697 /* PGDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD6B44219625EE900C19697 /* PGDAppDelegate.m */; };
+		FDD6B44619625EE900C19697 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDD6B44419625EE900C19697 /* Main.storyboard */; };
+		FDD6B44919625EE900C19697 /* PGDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD6B44819625EE900C19697 /* PGDViewController.m */; };
+		FDD6B44B19625EE900C19697 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDD6B44A19625EE900C19697 /* Images.xcassets */; };
+		FDD6B45219625EE900C19697 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDD6B45119625EE900C19697 /* XCTest.framework */; };
+		FDD6B45319625EE900C19697 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDD6B43219625EE900C19697 /* Foundation.framework */; };
+		FDD6B45419625EE900C19697 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDD6B43619625EE900C19697 /* UIKit.framework */; };
+		FDD6B45C19625EE900C19697 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FDD6B45A19625EE900C19697 /* InfoPlist.strings */; };
+		FDD6B45E19625EE900C19697 /* PDFGenDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD6B45D19625EE900C19697 /* PDFGenDemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FDD6B45519625EE900C19697 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDD6B42719625EE900C19697 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDD6B42E19625EE900C19697;
+			remoteInfo = PDFGenDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FDD6B42F19625EE900C19697 /* PDFGenDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PDFGenDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDD6B43219625EE900C19697 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FDD6B43419625EE900C19697 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FDD6B43619625EE900C19697 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FDD6B43A19625EE900C19697 /* PDFGenDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PDFGenDemo-Info.plist"; sourceTree = "<group>"; };
+		FDD6B43C19625EE900C19697 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FDD6B43E19625EE900C19697 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FDD6B44019625EE900C19697 /* PDFGenDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PDFGenDemo-Prefix.pch"; sourceTree = "<group>"; };
+		FDD6B44119625EE900C19697 /* PGDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PGDAppDelegate.h; sourceTree = "<group>"; };
+		FDD6B44219625EE900C19697 /* PGDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PGDAppDelegate.m; sourceTree = "<group>"; };
+		FDD6B44519625EE900C19697 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FDD6B44719625EE900C19697 /* PGDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PGDViewController.h; sourceTree = "<group>"; };
+		FDD6B44819625EE900C19697 /* PGDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PGDViewController.m; sourceTree = "<group>"; };
+		FDD6B44A19625EE900C19697 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FDD6B45019625EE900C19697 /* PDFGenDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PDFGenDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDD6B45119625EE900C19697 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FDD6B45919625EE900C19697 /* PDFGenDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PDFGenDemoTests-Info.plist"; sourceTree = "<group>"; };
+		FDD6B45B19625EE900C19697 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FDD6B45D19625EE900C19697 /* PDFGenDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDFGenDemoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDD6B42C19625EE900C19697 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDD6B43519625EE900C19697 /* CoreGraphics.framework in Frameworks */,
+				FDD6B43719625EE900C19697 /* UIKit.framework in Frameworks */,
+				FDD6B43319625EE900C19697 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDD6B44D19625EE900C19697 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDD6B45219625EE900C19697 /* XCTest.framework in Frameworks */,
+				FDD6B45419625EE900C19697 /* UIKit.framework in Frameworks */,
+				FDD6B45319625EE900C19697 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDD6B42619625EE900C19697 = {
+			isa = PBXGroup;
+			children = (
+				FDD6B43819625EE900C19697 /* PDFGenDemo */,
+				FDD6B45719625EE900C19697 /* PDFGenDemoTests */,
+				FDD6B43119625EE900C19697 /* Frameworks */,
+				FDD6B43019625EE900C19697 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDD6B43019625EE900C19697 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDD6B42F19625EE900C19697 /* PDFGenDemo.app */,
+				FDD6B45019625EE900C19697 /* PDFGenDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDD6B43119625EE900C19697 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FDD6B43219625EE900C19697 /* Foundation.framework */,
+				FDD6B43419625EE900C19697 /* CoreGraphics.framework */,
+				FDD6B43619625EE900C19697 /* UIKit.framework */,
+				FDD6B45119625EE900C19697 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FDD6B43819625EE900C19697 /* PDFGenDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FDD6B44119625EE900C19697 /* PGDAppDelegate.h */,
+				FDD6B44219625EE900C19697 /* PGDAppDelegate.m */,
+				FDD6B44419625EE900C19697 /* Main.storyboard */,
+				FDD6B44719625EE900C19697 /* PGDViewController.h */,
+				FDD6B44819625EE900C19697 /* PGDViewController.m */,
+				FDD6B44A19625EE900C19697 /* Images.xcassets */,
+				FDD6B43919625EE900C19697 /* Supporting Files */,
+			);
+			path = PDFGenDemo;
+			sourceTree = "<group>";
+		};
+		FDD6B43919625EE900C19697 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDD6B43A19625EE900C19697 /* PDFGenDemo-Info.plist */,
+				FDD6B43B19625EE900C19697 /* InfoPlist.strings */,
+				FDD6B43E19625EE900C19697 /* main.m */,
+				FDD6B44019625EE900C19697 /* PDFGenDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FDD6B45719625EE900C19697 /* PDFGenDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				FDD6B45D19625EE900C19697 /* PDFGenDemoTests.m */,
+				FDD6B45819625EE900C19697 /* Supporting Files */,
+			);
+			path = PDFGenDemoTests;
+			sourceTree = "<group>";
+		};
+		FDD6B45819625EE900C19697 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDD6B45919625EE900C19697 /* PDFGenDemoTests-Info.plist */,
+				FDD6B45A19625EE900C19697 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDD6B42E19625EE900C19697 /* PDFGenDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDD6B46119625EE900C19697 /* Build configuration list for PBXNativeTarget "PDFGenDemo" */;
+			buildPhases = (
+				FDD6B42B19625EE900C19697 /* Sources */,
+				FDD6B42C19625EE900C19697 /* Frameworks */,
+				FDD6B42D19625EE900C19697 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PDFGenDemo;
+			productName = PDFGenDemo;
+			productReference = FDD6B42F19625EE900C19697 /* PDFGenDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FDD6B44F19625EE900C19697 /* PDFGenDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDD6B46419625EE900C19697 /* Build configuration list for PBXNativeTarget "PDFGenDemoTests" */;
+			buildPhases = (
+				FDD6B44C19625EE900C19697 /* Sources */,
+				FDD6B44D19625EE900C19697 /* Frameworks */,
+				FDD6B44E19625EE900C19697 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDD6B45619625EE900C19697 /* PBXTargetDependency */,
+			);
+			name = PDFGenDemoTests;
+			productName = PDFGenDemoTests;
+			productReference = FDD6B45019625EE900C19697 /* PDFGenDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDD6B42719625EE900C19697 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PGD;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "WillowTree Apps";
+				TargetAttributes = {
+					FDD6B44F19625EE900C19697 = {
+						TestTargetID = FDD6B42E19625EE900C19697;
+					};
+				};
+			};
+			buildConfigurationList = FDD6B42A19625EE900C19697 /* Build configuration list for PBXProject "PDFGenDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDD6B42619625EE900C19697;
+			productRefGroup = FDD6B43019625EE900C19697 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDD6B42E19625EE900C19697 /* PDFGenDemo */,
+				FDD6B44F19625EE900C19697 /* PDFGenDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDD6B42D19625EE900C19697 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDD6B44B19625EE900C19697 /* Images.xcassets in Resources */,
+				FDD6B43D19625EE900C19697 /* InfoPlist.strings in Resources */,
+				FDD6B44619625EE900C19697 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDD6B44E19625EE900C19697 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDD6B45C19625EE900C19697 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDD6B42B19625EE900C19697 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDD6B44319625EE900C19697 /* PGDAppDelegate.m in Sources */,
+				FDD6B44919625EE900C19697 /* PGDViewController.m in Sources */,
+				FDD6B43F19625EE900C19697 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDD6B44C19625EE900C19697 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDD6B45E19625EE900C19697 /* PDFGenDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDD6B45619625EE900C19697 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDD6B42E19625EE900C19697 /* PDFGenDemo */;
+			targetProxy = FDD6B45519625EE900C19697 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FDD6B43B19625EE900C19697 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDD6B43C19625EE900C19697 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FDD6B44419625EE900C19697 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDD6B44519625EE900C19697 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FDD6B45A19625EE900C19697 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDD6B45B19625EE900C19697 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDD6B45F19625EE900C19697 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FDD6B46019625EE900C19697 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDD6B46219625EE900C19697 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PDFGenDemo/PDFGenDemo-Prefix.pch";
+				INFOPLIST_FILE = "PDFGenDemo/PDFGenDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FDD6B46319625EE900C19697 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PDFGenDemo/PDFGenDemo-Prefix.pch";
+				INFOPLIST_FILE = "PDFGenDemo/PDFGenDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FDD6B46519625EE900C19697 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PDFGenDemo.app/PDFGenDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PDFGenDemo/PDFGenDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PDFGenDemoTests/PDFGenDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FDD6B46619625EE900C19697 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PDFGenDemo.app/PDFGenDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PDFGenDemo/PDFGenDemo-Prefix.pch";
+				INFOPLIST_FILE = "PDFGenDemoTests/PDFGenDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDD6B42A19625EE900C19697 /* Build configuration list for PBXProject "PDFGenDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDD6B45F19625EE900C19697 /* Debug */,
+				FDD6B46019625EE900C19697 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDD6B46119625EE900C19697 /* Build configuration list for PBXNativeTarget "PDFGenDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDD6B46219625EE900C19697 /* Debug */,
+				FDD6B46319625EE900C19697 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FDD6B46419625EE900C19697 /* Build configuration list for PBXNativeTarget "PDFGenDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDD6B46519625EE900C19697 /* Debug */,
+				FDD6B46619625EE900C19697 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDD6B42719625EE900C19697 /* Project object */;
+}
