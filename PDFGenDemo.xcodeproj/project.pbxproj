@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FDAA72A51962F36B008396DF /* demoPDF.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FDAA72A41962F36B008396DF /* demoPDF.pdf */; };
+		FDAA72A71962FE8A008396DF /* connectTheDots.gif in Resources */ = {isa = PBXBuildFile; fileRef = FDAA72A61962FE8A008396DF /* connectTheDots.gif */; };
 		FDD6B43319625EE900C19697 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDD6B43219625EE900C19697 /* Foundation.framework */; };
 		FDD6B43519625EE900C19697 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDD6B43419625EE900C19697 /* CoreGraphics.framework */; };
 		FDD6B43719625EE900C19697 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDD6B43619625EE900C19697 /* UIKit.framework */; };
@@ -21,6 +23,7 @@
 		FDD6B45419625EE900C19697 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDD6B43619625EE900C19697 /* UIKit.framework */; };
 		FDD6B45C19625EE900C19697 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FDD6B45A19625EE900C19697 /* InfoPlist.strings */; };
 		FDD6B45E19625EE900C19697 /* PDFGenDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD6B45D19625EE900C19697 /* PDFGenDemoTests.m */; };
+		FDD6B46819625F9200C19697 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDD6B46719625F9200C19697 /* MessageUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FDAA72A41962F36B008396DF /* demoPDF.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = demoPDF.pdf; sourceTree = "<group>"; };
+		FDAA72A61962FE8A008396DF /* connectTheDots.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = connectTheDots.gif; sourceTree = "<group>"; };
 		FDD6B42F19625EE900C19697 /* PDFGenDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PDFGenDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDD6B43219625EE900C19697 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FDD6B43419625EE900C19697 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +58,7 @@
 		FDD6B45919625EE900C19697 /* PDFGenDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PDFGenDemoTests-Info.plist"; sourceTree = "<group>"; };
 		FDD6B45B19625EE900C19697 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FDD6B45D19625EE900C19697 /* PDFGenDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDFGenDemoTests.m; sourceTree = "<group>"; };
+		FDD6B46719625F9200C19697 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDD6B46819625F9200C19697 /* MessageUI.framework in Frameworks */,
 				FDD6B43519625EE900C19697 /* CoreGraphics.framework in Frameworks */,
 				FDD6B43719625EE900C19697 /* UIKit.framework in Frameworks */,
 				FDD6B43319625EE900C19697 /* Foundation.framework in Frameworks */,
@@ -101,6 +108,7 @@
 		FDD6B43119625EE900C19697 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FDD6B46719625F9200C19697 /* MessageUI.framework */,
 				FDD6B43219625EE900C19697 /* Foundation.framework */,
 				FDD6B43419625EE900C19697 /* CoreGraphics.framework */,
 				FDD6B43619625EE900C19697 /* UIKit.framework */,
@@ -126,6 +134,8 @@
 		FDD6B43919625EE900C19697 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FDAA72A61962FE8A008396DF /* connectTheDots.gif */,
+				FDAA72A41962F36B008396DF /* demoPDF.pdf */,
 				FDD6B43A19625EE900C19697 /* PDFGenDemo-Info.plist */,
 				FDD6B43B19625EE900C19697 /* InfoPlist.strings */,
 				FDD6B43E19625EE900C19697 /* main.m */,
@@ -230,8 +240,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDD6B44B19625EE900C19697 /* Images.xcassets in Resources */,
+				FDAA72A71962FE8A008396DF /* connectTheDots.gif in Resources */,
 				FDD6B43D19625EE900C19697 /* InfoPlist.strings in Resources */,
 				FDD6B44619625EE900C19697 /* Main.storyboard in Resources */,
+				FDAA72A51962F36B008396DF /* demoPDF.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,6 +469,7 @@
 				FDD6B46319625EE900C19697 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FDD6B46419625EE900C19697 /* Build configuration list for PBXNativeTarget "PDFGenDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +478,7 @@
 				FDD6B46619625EE900C19697 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
